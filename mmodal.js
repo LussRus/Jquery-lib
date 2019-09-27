@@ -1,53 +1,3 @@
-/*
-var mc = {
-        header: 'HEADER',
-        message: 'my message will be here',
-        buttons:[
-            {
-                id:'mcancel',
-                class: '',
-                text: 'close',
-                function: function(){
-                    mm.close();
-                }
-            },
-            {
-                id:'msave',
-                class: '',
-                text: 'save',
-                function: function(){
-                    mm.save();
-                }
-            }
-        ],
-        inputs:[
-            {
-                id:'minp1',
-                class: '',
-                placeholder: 'Введите что-нибудь',
-                functions: [
-                    {
-                        event: 'onkeyup',
-                        id: '#minp1',
-                        function: function(e){
-                            var trgt = e;//.target;
-                            alert('we are here');
-                        }
-                    },
-                    {
-                        event: 'click',
-                        id: '#minp1',
-                        function: function(){
-                            $('#minp1').create(['one I', 'two II', 'three III']);
-
-                        }
-                    }
-                ]
-                
-            }
-        ]
-    }
-*/
 class mmodal{
         constructor(p){
             this.param = p;
@@ -76,7 +26,6 @@ class mmodal{
             });
             
             mmh.hide();
-            //this.seyNo();
         }
         open(){
             $('.curtain').show();
@@ -86,8 +35,6 @@ class mmodal{
         }
         sayHi(arg){
             alert('Hi '+arg);
-            //$('.curtain').show();
-           // this.close();
         }
         save(){
             alert('Saved');

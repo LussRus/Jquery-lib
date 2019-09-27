@@ -1,0 +1,27 @@
+.help_list{
+    position: absolute;
+    height: 5em;
+    border: 1px solid black;
+    background: #efeff4;
+    z-index: 2;
+    box-shadow: 2px 2px 5px;
+    padding: 0.5em 0.2em 0.7em 0em;
+    overflow: scroll;
+}
+.help_list_els{
+    list-style-type: none;
+    text-align: left;
+    margin: 0.2em 0.5em;
+    padding: 0.1em 0.5em;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px grey;
+}
+.help_list_els:hover{
+    cursor: pointer;
+    background: rgba(100,100,100, 0.4);
+    box-shadow: 2px 2px 5px gray;
+    color: azure;
+}
+.help_list_els_hdn{
+    display: none;
+}

@@ -10,10 +10,9 @@ $(selector).cutTag('tagName');
 Where: tagName are pure text without '<','</', '>'
 
 I use it to clean up my strings from a 'mark' tags - $('#id').cutTag('mark');
------------------------------------------------
 
 A list of choices that will be below your input-field.
-______________________________________________________
+-----------------------------------------------
 dropdown.plugin.jq (.js, .css)
 Add a dropdown list to your input field, add search in your list by first three letters.
 (use together with cutTag)
@@ -23,10 +22,10 @@ $('#inp').on('click', function(){
   $('#inp').create(['one', 'two', 'three', 'four','five','six', 'seven']);
 });
 Where: #inp - an ID of your input-field
------------------------------------------------
+______________________________________________________
 
 POPUP dialog box
-________________
+-----------------------------------------------
 mmodal (.js, .css)
 This class add a modal window to your page with different content.
 (doesn't works with IE8)
@@ -84,4 +83,3 @@ Use:
 var mm = new mmodal(mc);
 mm.open();
 mm.close();
------------------------------------------------
